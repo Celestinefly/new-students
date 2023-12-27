@@ -50,34 +50,11 @@ Markdown中引用通过符号`>`来实现。`>`符号后的空格，可有可无
 >注意 :heavy_exclamation_mark:：在引用的区块内，允许换行存在，换行并不会终止引用的区块。如果要结束引用，需要一行空白行，来结束引用的区块。（连续按三下enter键就知道了，你所看到的空白行，在效果图中不会出现，只会表现为换行）
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 举例说明：   
 按三下enter后输入文字"你好"    
-![按三下enter后输入文字"你好"]()    
+![按三下enter后输入文字"你好"](https://github.com/Celestinefly/keep-pictures/blob/0b21fccdcecf90918b18be86a591814c54314cdc/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-27%20115123.png)    
 效果图   
-![效果图]()
+![效果图](https://github.com/Celestinefly/keep-pictures/blob/0b21fccdcecf90918b18be86a591814c54314cdc/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-27%20115139.png)
 
 
 
