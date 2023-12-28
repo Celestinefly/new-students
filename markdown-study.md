@@ -68,6 +68,40 @@ Markdown中引用通过符号`>`来实现。`>`符号后的空格，可有可无
 >>>三级引用
 -----
 
+### 第五部分：链接   
+
+表示方法：[链接名称介绍](链接地址）或者<链接地址>  
+代码：  
+`[Celestinefly的github地址](https://github.com)`   
+或者      
+`<https://github.com>`   
+效果：  
+[Celestinefly的github地址](https://github.com)    
+<https://github.com>    
+
+-----    
+
+### 第六部分：图片  
+表示方法：![图片描述，可写可不写，但是中括号要有](图片地址，本地链接或者URL地址。)  
+代码：  
+`![按三下enter后输入文字"你好"](https://github.com/Celestinefly/keep-pictures/blob/0b21fccdcecf90918b18be86a591814c54314cdc/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-27%20115123.png)`  
+效果图：  
+![按三下enter后输入文字"你好"](https://github.com/Celestinefly/keep-pictures/blob/0b21fccdcecf90918b18be86a591814c54314cdc/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-27%20115123.png)   
+
+------
+
+### 第七部分：列表   
+1. 无序列表，使用*、+、-，再加一个空格作为列表的标记   
+2. 有序列表，使用数字并加上.号，再加一个空格作为列表的标记
+>这里取消列表和取消引用一样，输入空白行，具体操作是按三下enter键
+无序列表代码：
+
+
+
+
+
+
+
 
 
 
