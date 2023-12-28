@@ -1,4 +1,4 @@
-# 这篇文章主要讲解markdown语法    
+# 这篇文章主要讲解markdown语法[^1]
 （用markdown写文件的时候记得文件后面加后缀.md）
 -----
 
@@ -201,13 +201,16 @@ Markdown中引用通过符号`>`来实现。`>`符号后的空格，可有可无
 
 ### 第九部分：代码块  
 表示方法：``引起来   
-代码：  
+表示代码的代码：  
 ```markdown
 `hello` world
 ```
 效果：  
-`hello` world  
-代码块：
+`hello` world    
+
+表示代码块的代码：  
+![golang代码](https://github.com/Celestinefly/keep-pictures/blob/d177fb6c031c467c89cf74e1265f2052f12fd147/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-29%20045940.png)  
+效果：  
 ```go
 package main
 import "fmt"
@@ -215,7 +218,81 @@ func main(){
    fmt.Println("hello,world")
 }
 ```
+支持的编程语言有：  
+```markdown
+bash
+c，clojure，cpp，cs，css
+dart，dockerfile, diff
+erlang
+go，gradle，groovy
+haskell
+java，javascript，json，julia
+kotlin
+lisp，lua
+makefile，markdown，matlab
+objectivec
+perl，php，python
+r，ruby，rust
+scala，shell，sql，swift
+tex，typescript
+verilog，vhdl
+xml
+yaml
+```
 
+----
+
+### 第十部分：表格  
+|:-:|:-:|表示表格的结构  
++ `:-:`:表示表格里面的内容居中
++ `-:`:表示表格里面的内容居右
++ `:-`:表示表格里面的内容居左
++ `-`:表示表格里面的内容居左
+
+|符号|文字相对单元格的位置|
+|:-:|:-:|
+|`:-:`|中|
+|`-:`|右|
+|`:-`|左|
+|`-`|左|
+>注意 :heavy_exclamation_mark:：`:`是英文的冒号
+
+---
+
+### 第十一部分：脚注  
+```markdown
+[^1]
+```
+你好，世界[^2]
+
+---
+
+### 第十二部分：制作待办事项    
+表示方法`- [ ]` 表示未完成；`- [x]`表示已完成  
+代码：  
+```markdown
+- [ ] 刷牙
+- [ ] 洗脸
+- [x] 吃早餐
+```
+效果：  
+- [ ] 刷牙
+- [ ] 洗脸
+- [x] 吃早餐
+>注意 :heavy_exclamation_mark:：`-空格[空格]`,或者`-空格[x]`
+
+---
+
+### 第十三部分：表情    
+markdown支持表情包代码[^3]    
+代码：   
+`:satisfied:`    
+效果：    
+:satisfied:
+
+[^1]:hello，world
+[^2]:hello，world
+[^3]:[表情包代码](https://blog.csdn.net/m0_50546016/article/details/119087177?ops_request_misc=&request_id=&biz_id=102&utm_term=markdown%E8%A1%A8%E6%83%85%E5%8C%85&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-119087177.142^v99^control&spm=1018.2226.3001.4187)
 
    
 
