@@ -103,10 +103,10 @@ Markdown中引用通过符号`>`来实现。`>`符号后的空格，可有可无
 [`Celestinefly的github地址`](https://github.com)
 ```
 效果：   
-*[Celestinefly的github地址](https://github.com)*
-**[Celestinefly的github地址](https://github.com)**
-~~[Celestinefly的github地址](https://github.com)~~
-[`Celestinefly的github地址`](https://github.com)
+*[Celestinefly的github地址](https://github.com)*   
+**[Celestinefly的github地址](https://github.com)**    
+~~[Celestinefly的github地址](https://github.com)~~    
+[`Celestinefly的github地址`](https://github.com)     
 
 -----    
 
