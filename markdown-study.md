@@ -97,11 +97,16 @@ Markdown中引用通过符号`>`来实现。`>`符号后的空格，可有可无
 -----    
 
 ### 第六部分：图片  
-表示方法：! [图片描述，可写可不写，但是中括号要有] (图片地址，本地链接或者URL地址。)(!,[],()之间不要空格，这里为了清楚表示，所以分开了）     
+表示方法：! [图片描述，可写可不写，但是中括号要有] (图片地址，本地链接或者URL地址 "图片主题")(!,[],()之间不要空格，这里为了清楚表示，所以分开了.图片主题和图片地址要空格，图片主题可加可不加）       
 代码：  
-`![按三下enter后输入文字"你好"](https://github.com/Celestinefly/keep-pictures/blob/0b21fccdcecf90918b18be86a591814c54314cdc/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-27%20115123.png)`  
+`![华中师范大学](https://pic3.zhimg.com/v2-9a475706794df67266e192e41e9b0f66_r.jpg "CCNU")`  
 效果图：  
-![按三下enter后输入文字"你好"](https://github.com/Celestinefly/keep-pictures/blob/0b21fccdcecf90918b18be86a591814c54314cdc/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202023-12-27%20115123.png)   
+![华中师范大学](https://pic3.zhimg.com/v2-9a475706794df67266e192e41e9b0f66_r.jpg "CCUN")   
+给图片增加链接，请将图像的Markdown 括在方括号中，然后将链接添加在圆括号中  
+代码：  
+`[把上面的代码放着里](图片的链接）`   
+效果：  
+[![华中师范大学](https://pic3.zhimg.com/v2-9a475706794df67266e192e41e9b0f66_r.jpg "CCNU")](https://pic3.zhimg.com/v2-9a475706794df67266e192e41e9b0f66_r.jpg）
 
 ------
 
