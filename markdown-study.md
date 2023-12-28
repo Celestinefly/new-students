@@ -94,10 +94,24 @@ Markdown中引用通过符号`>`来实现。`>`符号后的空格，可有可无
 [Celestinefly的github地址](https://github.com)    
 <https://github.com>    
 
+链接还可以搭配不同的字体，表示强调作用   
+代码：   
+```markdown
+*[Celestinefly的github地址](https://github.com)*
+**[Celestinefly的github地址](https://github.com)**
+~~[Celestinefly的github地址](https://github.com)~~
+[`Celestinefly的github地址`](https://github.com)
+```
+效果：   
+*[Celestinefly的github地址](https://github.com)*
+**[Celestinefly的github地址](https://github.com)**
+~~[Celestinefly的github地址](https://github.com)~~
+[`Celestinefly的github地址`](https://github.com)
+
 -----    
 
 ### 第六部分：图片  
-表示方法：! [图片描述，可写可不写，但是中括号要有] (图片地址，本地链接或者URL地址 "图片主题")(!,[],()之间不要空格，这里为了清楚表示，所以分开了.图片主题和图片地址要空格，图片主题可加可不加）       
+表示方法：! [图片描述，可写可不写，但是中括号要有] (图片地址，本地链接或者URL地址 "图片主题[^4]")(!,[],()之间不要空格，这里为了清楚表示，所以分开了.图片主题和图片地址要空格，图片主题可加可不加）       
 代码：  
 `![华中师范大学](https://pic3.zhimg.com/v2-9a475706794df67266e192e41e9b0f66_r.jpg "CCNU")`  
 效果图：  
@@ -293,13 +307,37 @@ markdown支持表情包代码[^3]
 代码：   
 `:satisfied:`    
 效果：    
-:satisfied:
+:satisfied:   
+
+---
+
+### 第十四部分：转义字符   
+|代码|character(符号)|
+|:-:|:-:|
+|`\\`|\\|
+|`\*`|\*|
+|`\+`|\+|
+|`\_`|\_|
+|`\.`|\.|
+|`\``|\`|
+|`\[`和`\]`|\[和\]|
+|`\(`和`\)`|\(和\)|
+|`\{`和`\}`|\{和\}|
+|`\!`|\!|
+|`\|`|\||  
+
+高级用法参考：[Markdown官方教程转义字符语法](https://markdown.com.cn/basic-syntax/escaping-characters.html)
+
+
+
+
+--------
 
 [^1]:参考文献有：1.[Markdown官方教程](https://markdown.com.cn/)，2.[手把手教会你使用Markdown【从入门到精通一篇就够了】](https://blog.csdn.net/qq_40818172/article/details/126260661?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170358207316800213069001%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170358207316800213069001&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-126260661-null-null.142^v98^control&utm_term=markdown&spm=1018.2226.3001.4187)，
 3.[CSDN 支持的＜markdown格式＞表情包大全分享](https://blog.csdn.net/m0_50546016/article/details/119087177?ops_request_misc=&request_id=&biz_id=102&utm_term=markdown%E8%A1%A8%E6%83%85%E5%8C%85&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-119087177.142^v99^control&spm=1018.2226.3001.4187)
 [^2]:hello，world
 [^3]:[表情包代码](https://blog.csdn.net/m0_50546016/article/details/119087177?ops_request_misc=&request_id=&biz_id=102&utm_term=markdown%E8%A1%A8%E6%83%85%E5%8C%85&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-119087177.142^v99^control&spm=1018.2226.3001.4187)
-
+[^4]:图片主题：图片主题是当鼠标悬停在链接上时会出现的文字
    
 
 
