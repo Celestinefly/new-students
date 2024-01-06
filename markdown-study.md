@@ -326,15 +326,24 @@ markdown支持表情包代码[^3]
 |`\!`|\!|
 |`\|`|\||  
 
-高级用法参考：[Markdown官方教程转义字符语法](https://markdown.com.cn/basic-syntax/escaping-characters.html)
+高级用法参考：[Markdown官方教程转义字符语法](https://markdown.com.cn/basic-syntax/escaping-characters.html)   
 
-
-
+-----
+### 第十四部分：数学符号  
+代码：  
+```markdown
+$a_{n}x^{n}+a_{n-1}x^{n-1}+\dotsb + a_{2}x^{2} +
+a_{1}x + a_{0}$
+```
+效果：  
+$a_{n}x^{n}+a_{n-1}x^{n-1}+\dotsb + a_{2}x^{2} +
+a_{1}x + a_{0}$  
+更多见：[LaTeX代数表达式](https://github.com/Celestinefly/new-students/blob/f8603610e78fcce5b4df2fa0cafb38d816fa7215/Book_1_Ch_03__JupyterLab%EF%BC%8C%E7%94%A8%E8%B5%B7%E6%9D%A5__%E7%BC%96%E7%A8%8B%E4%B8%8D%E9%9A%BE__%E9%B8%A2%E5%B0%BE%E8%8A%B1%E4%B9%A6__%E4%BB%8E%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%88%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf)
 
 --------
 
 [^1]:参考文献有：1.[Markdown官方教程](https://markdown.com.cn/)，2.[手把手教会你使用Markdown【从入门到精通一篇就够了】](https://blog.csdn.net/qq_40818172/article/details/126260661?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522170358207316800213069001%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=170358207316800213069001&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~top_positive~default-1-126260661-null-null.142^v98^control&utm_term=markdown&spm=1018.2226.3001.4187)，
-3.[CSDN 支持的＜markdown格式＞表情包大全分享](https://blog.csdn.net/m0_50546016/article/details/119087177?ops_request_misc=&request_id=&biz_id=102&utm_term=markdown%E8%A1%A8%E6%83%85%E5%8C%85&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-119087177.142^v99^control&spm=1018.2226.3001.4187)
+3.[CSDN 支持的＜markdown格式＞表情包大全分享](https://blog.csdn.net/m0_50546016/article/details/119087177?ops_request_misc=&request_id=&biz_id=102&utm_term=markdown%E8%A1%A8%E6%83%85%E5%8C%85&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-119087177.142^v99^control&spm=1018.2226.3001.4187)，4.[鸢尾花书(LaTeX部分节选](https://github.com/Celestinefly/new-students/blob/f8603610e78fcce5b4df2fa0cafb38d816fa7215/Book_1_Ch_03__JupyterLab%EF%BC%8C%E7%94%A8%E8%B5%B7%E6%9D%A5__%E7%BC%96%E7%A8%8B%E4%B8%8D%E9%9A%BE__%E9%B8%A2%E5%B0%BE%E8%8A%B1%E4%B9%A6__%E4%BB%8E%E5%8A%A0%E5%87%8F%E4%B9%98%E9%99%A4%E5%88%B0%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0.pdf)
 [^2]:hello，world
 [^3]:[表情包代码](https://blog.csdn.net/m0_50546016/article/details/119087177?ops_request_misc=&request_id=&biz_id=102&utm_term=markdown%E8%A1%A8%E6%83%85%E5%8C%85&utm_medium=distribute.pc_search_result.none-task-blog-2~all~sobaiduweb~default-1-119087177.142^v99^control&spm=1018.2226.3001.4187)
 [^4]:图片主题：图片主题是当鼠标悬停在链接上时会出现的文字
